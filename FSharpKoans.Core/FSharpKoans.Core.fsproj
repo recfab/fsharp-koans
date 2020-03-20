@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;netstandard2.1</TargetFrameworks>
+    <OutputType>Library</OutputType>
+    <Name>FSharpKoans.Core</Name>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="KoanAttribute.fs" />
+    <Compile Include="Helpers.fs" />
+    <Compile Include="KoanResult.fs" />
+    <Compile Include="KoanContainer.fs" />
+    <Compile Include="KoanRunner.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.8.1"/>
+  </ItemGroup>
+</Project>
